@@ -1,0 +1,409 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Murat Tekin Frontend</title>
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+        }
+
+        th, td {
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: #ADD8E6; /*#eaeaea;*/
+        }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
+            z-index: 999;
+        }
+
+    </style>
+
+    <table id="disTable">
+
+        <tr>
+
+            <th>ID</th>
+            <th>Type</th>
+            <th>Recipient</th>
+            <th>RecipientType</th>
+            <th>Status</th>
+            <th>Delete</th>
+            <th>Update</th>
+        </tr>
+
+        <tr>
+            <td colspan="7">
+                <button id="yeniKayit" onclick="onAddNew()">Yeni Kayit Ekleme</button>
+                <button id="kayitGuncelle" onclick="onUpdate()">Mevcut Kaydi Guncelleme</button>
+                <button id="kayitSil" onclick="onDelete()">Mevcut Kaydi Silme</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="7">
+
+                <input type="text" id="txtType" name="txtType" value="Type">
+
+                <input type="text" id="txtRecipient" name="txtRecipient" value="Recipient">
+
+                <input type="text" id="txtRecipientType" name="txtRecipientType" value="RecipientType">
+
+                <input type="text" id="txtStatus" name="txtStatus" value="Status">
+            </td>
+        </tr>
+
+      
+    </table>
+        
+
+        
+
+        <script>
+
+            const userObject = {
+                username: "User-5E638711-2D64-47B0-A8F5-1C5A9EADA966",
+                password: "Pass-E4A679C7-2F4B-40AE-9DC8-C967EF7215AE"
+            };
+
+
+            fetch('https://localhost:44338/api/User/authenticate', { //to authenticate
+                method: 'POST',
+                headers: new Headers({
+                    'Content-Type': 'application/json' // headers ve content type olmadığında 415 media type ve 405 server responded hatası veriyor
+                }),
+                body: JSON.stringify(userObject)//JSON dizesine dönüştürülecek JavaScript nesnesi
+            })
+                .then(response => response.json())
+                .then(tokenObject => {
+                    const jwtToken = tokenObject.jwtToken; //JSON Web Token
+                    //debugger;
+                    for (var i = 0; i < 1000; i++) {
+                        const consentsObject = {
+                            startId: i * 10,
+                            count: 10
+                        };
+
+                        fetch('https://localhost:44338/api/Consents', { //after authentication fetch data
+                            method: 'POST',
+                            headers: new Headers({
+                                'Authorization': 'Bearer ' + jwtToken, //http istekleri için kullanılan başlık bilgisi, API isteklerinde kullanılır
+                                'Content-Type': 'application/json'
+                            }),
+                            body: JSON.stringify(consentsObject)
+                        })
+
+                            .then(response => response.json())
+                            .then(dataArray => { //swagger üzerindeki bilgileri arraye dönüştürüp sıralar
+                                //debugger;
+                                const idTablosu = document.getElementById('disTable');
+                                dataArray.sort(function (a, b) { return b - a }); //büyükten küçüğe sıralama
+                                dataArray.reverse();
+                                console.log(dataArray);
+
+                                dataArray.forEach(function (data, i) {
+                                   
+                                    const satir = document.createElement('tr');
+                                    
+                                    
+
+                                    if (i % 2 === 0) {
+                                        satir.style.backgroundColor = "#D3D3D3";
+                                    }
+
+                                    // ID hücresi oluştur ve sayıyı yazdır
+
+                                    const hucreID = document.createElement('td'); //satır oluşturur 
+                                    const idMetni = document.createTextNode(data.id.toString()); //id verisini çeker
+                                    hucreID.appendChild(idMetni); //eklediği satır içerisine id'yi yazar
+
+                                    //diğer işlemler de bu şekilde devam eder
+
+                                    const hucreType = document.createElement('td');
+                                    const TypeMetni = document.createTextNode(data.type.toString());
+                                    hucreType.appendChild(TypeMetni);
+
+                                    const hucreRecipient = document.createElement('td');
+                                    const RecipientMetni = document.createTextNode(data.recipient.toString());
+                                    hucreRecipient.appendChild(RecipientMetni);
+
+                                    const hucreStatus = document.createElement('td');
+                                    const StatusMetni = document.createTextNode(data.status.toString());
+                                    hucreStatus.appendChild(StatusMetni);
+
+                                    const hucreRecipientType = document.createElement('td');
+                                    const RecipientTypeMetni = document.createTextNode(data.recipientType.toString());
+                                    hucreRecipientType.appendChild(RecipientTypeMetni);
+
+                                    const hucreDelete = document.createElement('td');
+                                    const checkbox = document.createElement('input');
+                                    checkbox.setAttribute('type', 'checkbox');
+                                    hucreDelete.appendChild(checkbox);
+
+                                    const hucreRadio = document.createElement('td');
+                                    const radioBtn = document.createElement('input');
+                                    radioBtn.type = 'radio';
+                                    radioBtn.name = 'selectedRow';
+                                    hucreRadio.appendChild(radioBtn);
+                                    
+
+                                    
+                                    satir.appendChild(hucreID);
+                                    satir.appendChild(hucreType);
+                                    satir.appendChild(hucreRecipient);
+                                    satir.appendChild(hucreRecipientType);
+                                    satir.appendChild(hucreStatus);//satıra hücreler ekler yani bir satırda id,type,Recipient,RecipientType,Status yazar
+                                    satir.appendChild(hucreDelete);
+                                    satir.appendChild(hucreRadio);
+
+                                    idTablosu.appendChild(satir);// Satırı tabloya ekle
+
+                                    if (i == 9) {
+                                        const tarihSatiri = document.createElement('tr');
+                                        tarihSatiri.style.backgroundColor = "#ADD8E6";
+                                        const tarihHucre = document.createElement('td');
+                                        //tarihHucre.classList.add("Tarih");  tarih classı diğer sütun genişliklerinide bozduğu için kapattım.
+                                        tarihHucre.colSpan = 7; //Tarih sütununun bütün satırı kaplaması için toplam sütun sayısı kadar colSpan verdim.
+                                        tarihHucre.textContent = new Date().toLocaleString();
+                                        tarihSatiri.appendChild(tarihHucre);
+                                        idTablosu.appendChild(tarihSatiri);
+
+                                    }
+
+
+                                });
+                            });
+
+                    }
+                   
+
+                });
+
+            function onAddNew() {
+                 var newConsent = {};
+                
+                 newConsent.type = document.getElementById('txtType').value;
+                 newConsent.recipient = document.getElementById('txtRecipient').value;
+                 newConsent.recipientType = document.getElementById('txtRecipientType').value;
+                 newConsent.status = document.getElementById('txtStatus').value;
+
+                 console.log(newConsent);
+                 fetch('https://localhost:44338/api/Consents/AddNewConsent', { 
+                    method: 'POST',
+                    headers: new Headers({
+                        'Content-Type': 'application/json' 
+                    }),
+                    body: JSON.stringify(newConsent)
+                })
+                    .then(response => response.json())
+                    .then(data => { //swagger üzerindeki bilgileri arraye dönüştürüp sıralar
+                        //debugger;
+                        const idTablosu = document.getElementById('disTable');
+                        console.log(data);
+                        const satir = document.createElement('tr');
+                        
+
+                        const hucreID = document.createElement('td'); //satır oluşturur 
+                        const idMetni = document.createTextNode(data.id.toString()); //id verisini çeker
+                        hucreID.appendChild(idMetni); //eklediği satır içerisine id'yi yazar
+
+                        //diğer işlemler de bu şekilde devam eder
+
+                        const hucreType = document.createElement('td');
+                        const TypeMetni = document.createTextNode(data.type.toString());
+                        hucreType.appendChild(TypeMetni);
+
+                        const hucreRecipient = document.createElement('td');
+                        const RecipientMetni = document.createTextNode(data.recipient.toString());
+                        hucreRecipient.appendChild(RecipientMetni);
+
+                        const hucreStatus = document.createElement('td');
+                        const StatusMetni = document.createTextNode(data.status.toString());
+                        hucreStatus.appendChild(StatusMetni);
+
+                        const hucreRecipientType = document.createElement('td');
+                        const RecipientTypeMetni = document.createTextNode(data.recipientType.toString());
+                        hucreRecipientType.appendChild(RecipientTypeMetni);
+
+                        const hucreDelete = document.createElement('td');
+                        const checkbox = document.createElement('input');
+                        checkbox.setAttribute('type', 'checkbox');
+                        hucreDelete.appendChild(checkbox);
+
+                        const hucreRadio = document.createElement('td');
+                        const radioBtn = document.createElement('input');
+                        radioBtn.type = 'radio';
+                        radioBtn.name = 'selectedRow';
+                        hucreRadio.appendChild(radioBtn);
+                        
+
+
+                        satir.appendChild(hucreID);
+                        satir.appendChild(hucreType);
+                        satir.appendChild(hucreRecipient);
+                        satir.appendChild(hucreRecipientType);
+                        satir.appendChild(hucreStatus);//satıra hücreler ekler yani bir satırda id,type,Recipient,RecipientType,Status yazar
+                        satir.appendChild(hucreDelete);
+                        satir.appendChild(hucreRadio);
+
+                        idTablosu.appendChild(satir);// Satırı tabloya ekle
+
+                              
+                    });
+            }
+
+            function onUpdate() {
+                const selectedRadioBtn = document.querySelector('input[type="radio"]:checked');
+
+                if (!selectedRadioBtn) {
+                    alert('Lütfen güncellemek istediğiniz bir kayıt seçin.');      //kayıt seçilmeden kayıt güncellenmek isterse uyarı verir
+                    return;
+                }
+
+                const selectedRow = selectedRadioBtn.closest('tr');
+                const id = selectedRow.querySelector('td:first-child').innerText;
+
+                const popup = document.createElement('div');
+                popup.classList.add('popup');
+                popup.style = `                          
+                                position: fixed;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                              `;                //popupı ortalar
+
+                const labeldiv = document.createElement('div');
+                const label = document.createElement('label');
+                label.innerText = `ID: ${id}`;                  //güncellecek id verilerini çeker ve labelda id'yi yazar
+                labeldiv.appendChild(label)
+                popup.appendChild(labeldiv);
+
+                
+
+                const types = ['Type:', 'Recipient:', 'RecipientType:', 'Status:'];         //her yeni satıra sırayla textbox içerisinde verilerin değerlerini yazar
+                for (let i = 0; i < types.length; i++) {
+                    const inputLabel = document.createElement('div');
+                    const inputbr = document.createElement('br');
+                    inputLabel.innerText = types[i];
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = selectedRow.cells[i+1].innerText;
+                    popup.appendChild(inputLabel);
+                    popup.appendChild(input);
+                    popup.appendChild(inputbr);
+                }
+                
+                const saveBtn = document.createElement('button');               //textbox içerisindeki değerleri günceller
+                saveBtn.innerText = 'Kaydet';
+                saveBtn.onclick = function () {
+                    const inputs = popup.querySelectorAll('input[type="text"]');
+                    var updateConsent = {};
+                    updateConsent.Id = parseInt(selectedRow.cells[0].textContent);
+                    updateConsent.Type = inputs[0].value;
+                    updateConsent.Recipient = inputs[1].value;
+                    updateConsent.RecipientType = inputs[2].value;
+                    updateConsent.Status = inputs[3].value;
+
+                    fetch('https://localhost:44338/api/Consents/UpdateConsent', { //güncellenen verileri UpdateConsente yollar
+                        method: 'POST',
+                        headers: new Headers({
+                            'Content-Type': 'application/json'
+                        }),
+                        body: JSON.stringify(updateConsent)
+                    })
+                        .then(response => response.json())      //APIdan yanıt istendiğinde callback isteği atar json dosyası verilerini javascripte çevirir
+                        .then(result => {                       //callback
+                            if (result) {
+                                
+                                for (let i = 0; i < inputs.length; i++) {                   //güncellenen veriler tablodaki satırlaında gösteriliyor
+                                    selectedRow.cells[i + 1].innerText = inputs[i].value;
+
+                                
+                                }
+                            } else {
+
+                                alert('Güncelleme Başarısız');
+                                return;
+
+                            }
+                            popup.remove();
+                        });
+                };
+
+                popup.appendChild(saveBtn);
+
+
+                const cancelBtn = document.createElement('button');
+                cancelBtn.innerText = 'Cancel';
+                cancelBtn.onclick = function () {
+                    popup.remove();
+                };
+                popup.appendChild(cancelBtn);
+
+                    document.body.appendChild(popup);
+                
+            }
+
+            function onDelete() {
+                const idTablosu = document.getElementById('disTable');
+
+                
+                for (var i = idTablosu.rows.length - 1; i >= 0; i--) { 
+                    var row = idTablosu.rows[i];
+                    if (row.cells[5] != undefined) { //saat satırlarında hata vermemesi için satırda checkbox var mı kontrolü
+                        var cbox = row.cells[5].getElementsByTagName('input')[0]; //checkbox sütunu
+
+                        if (cbox.checked == true) {         //checkbox işaretliyse, işaretli satırdaki bilgileri seçer ve callbackle çağrılarak o satırdaki id ve verileri silinir
+                            
+                            var consentToDelete = {}; 
+                            consentToDelete.Id = parseInt(row.cells[0].textContent);
+                            consentToDelete.Type = row.cells[1].textContent;
+                            consentToDelete.Recipient = row.cells[2].textContent;
+                            consentToDelete.RecipientType = row.cells[3].textContent;
+                            consentToDelete.Status = row.cells[4].textContent;
+
+
+                            fetch('https://localhost:44338/api/Consents/DeleteConsent', { 
+                                method: 'POST',
+                                headers: new Headers({
+                                    'Content-Type': 'application/json'
+                                }),
+                                body: JSON.stringify(consentToDelete)
+                            })
+                                .then(response => response.json())
+                                .then(result => {
+                                    if (result) {
+                                        idTablosu.deleteRow(i);
+                                    }
+                                });
+                        }
+                    }
+                    
+                }
+            }
+            
+
+        </script>
+
+
+</body>
+</html>

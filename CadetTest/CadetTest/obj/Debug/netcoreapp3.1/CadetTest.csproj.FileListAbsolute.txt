@@ -1,0 +1,215 @@
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.AssemblyReference.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfoInputs.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfo.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CoreCompileInputs.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.exe
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.deps.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.dev.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.Manifest.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.xml
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\scopedcss\bundle\CadetTest.styles.css
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.input.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.output.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorCoreGenerate.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cs
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CopyComplete
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.genruntimeconfig.cache
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Data\users.json
+C:\Users\necdet.inkaya.BILMED\source\repos\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Data\users.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.StaticWebAssets.xml
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.exe
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.deps.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.dev.json
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.AssemblyReference.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfoInputs.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfo.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CoreCompileInputs.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.Manifest.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.Pack.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.CadetTest.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.CadetTest.props
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.CadetTest.props
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.CadetTest.props
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.input.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.output.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorCoreGenerate.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cache
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cs
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CopyComplete
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\pcx\Desktop\FS Bilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.genruntimeconfig.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Data\users.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.StaticWebAssets.xml
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.exe
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.deps.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.runtimeconfig.dev.json
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.AssemblyReference.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfoInputs.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.AssemblyInfo.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CoreCompileInputs.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorAssemblyInfo.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.Manifest.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\CadetTest.StaticWebAssets.Pack.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.CadetTest.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.CadetTest.props
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.CadetTest.props
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.CadetTest.props
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.input.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.TagHelpers.output.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorCoreGenerate.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cache
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.RazorTargetAssemblyInfo.cs
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.Views.pdb
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.csproj.CopyComplete
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.dll
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.pdb
+C:\Users\pcx\Desktop\FSBilmed\CadetTest\CadetTest\obj\Debug\netcoreapp3.1\CadetTest.genruntimeconfig.cache
